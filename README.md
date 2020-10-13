@@ -1,4 +1,4 @@
-# Simple/Console Template
+# Simpl/Console Template
 
 Template for creating new console projects using `symfony/console`.
 
