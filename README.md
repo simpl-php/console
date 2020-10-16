@@ -1,11 +1,11 @@
 # Simpl/Console
 
-Template for creating new console projects using `symfony/console`.
+> Boilerplate for creating a new console project using `symfony/console`.
 
 ## Installation
 
 ```
-composer create-project simpl/console {your-project-name} --stability=dev
+composer create-project simpl/console [your-project-name] --stability=dev
 ```
 
 ## Basic Usage
@@ -35,9 +35,9 @@ Once you've added your command, register it in the `console` script.
 $application->add(new Commands\Hello());
 ```
 
-See `app\Commands\Hello` for an example.
+> See `app\Commands\Hello` for an example.
 
-See <https://simpl-php.com/templates/console> for full documentation.
+See <https://simpl-php.com/components/console> for full documentation.
 
 ## Testing
 
