@@ -8,14 +8,14 @@ use Symfony\Component\Console\Output\OutputInterface;
 
 class Hello extends Command
 {
-	// the name of the command (the part after "bin/console")
+	// the name of the command (the part after "php console")
 	protected static $defaultName = 'app:hello';
 
 	protected function configure()
 	{
 		$this
-			->setDescription('Returns PHP Info')
-			->setHelp('This command just returns PHP Version')
+			->setDescription('The traditional Hello World app.')
+			->setHelp('php console app:hello [--name="World"]')
 			->addOption('name', null, InputOption::VALUE_REQUIRED, "What's your name?", "World")
 		;
 	}
@@ -23,8 +23,6 @@ class Hello extends Command
 	protected function execute(InputInterface $input, OutputInterface $output)
 	{
 		// ... put here the code to run in your command
-		$output->writeLn('PHP Version ' . phpversion());
-
 		$message = sprintf('Hello, %s!', $input->getOption('name'));
 
 		$output->writeLn($message);

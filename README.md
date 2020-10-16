@@ -4,7 +4,9 @@ Template for creating new console projects using `symfony/console`.
 
 ## Installation
 
-@todo Need to make this installable with create-project command.
+```
+composer create-project simpl/console-template {your-project-name} --stability=dev
+```
 
 ## Basic Usage
 
