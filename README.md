@@ -1,11 +1,11 @@
-# Simpl/Console Template
+# Simpl/Console
 
 Template for creating new console projects using `symfony/console`.
 
 ## Installation
 
 ```
-composer create-project simpl/console-template {your-project-name} --stability=dev
+composer create-project simpl/console {your-project-name} --stability=dev
 ```
 
 ## Basic Usage
